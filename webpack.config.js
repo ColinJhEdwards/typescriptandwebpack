@@ -9,7 +9,7 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
   },
   //   tells webpack that there will be generated source maps to work with
-  devtools: "inline-source-map",
+  devtool: "inline-source-map",
   //   tell webpack how to work with files in project
   module: {
     rules: [

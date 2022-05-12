@@ -18,3 +18,8 @@ typescript, as mentioneed aboved
 webpack, webpack itself for bundling files
 webpack-cli,
 webpack-dev-server
+
+-To create a bundled files, after setting up your webpack config file, in the package.json add a script for "build" or whatever you want to name it, and have it run webpack
+"scripts": {
+"build": "webpack",
+}
